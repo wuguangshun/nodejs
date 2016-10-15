@@ -47,7 +47,7 @@ Object.setPrototypeOf(Child.prototype,Parent.prototype);//公有方法*/
 /*Object.setPrototypeOf = function (ctp,ptp) {
     ctp.__proto__ = ptp;
 }*/
-
+console.log(util.isArray)
 
 
 
