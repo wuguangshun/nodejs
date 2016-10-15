@@ -1,5 +1,5 @@
 var fs  = require('fs');
-fs.writeFileSync('./1.txt',123);
+fs.writeFileSync('./2.txt',456);
 //默认写入的编码是utf8
 //默认创建
 //将提供的数据放在第二个参数上

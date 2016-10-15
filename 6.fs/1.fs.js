@@ -3,7 +3,7 @@ var fs = require('fs');
 //fs中的方法分为两种同步和异步，能用异步就不要用同步，同步和异步的方法，是一同出现的
 //读文件同步
 try{
-var data = fs.readFileSync('./name1.txt','utf8');
+var data = fs.readFileSync('./name.txt','utf8');
 }catch (e){
     console.log(e);
 }//同步会等待读取结果后返回结果
